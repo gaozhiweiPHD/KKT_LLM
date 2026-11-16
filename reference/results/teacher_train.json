@@ -1,0 +1,11 @@
+{
+  "trajectories": 10000,
+  "success_rate": 1.0,
+  "action_distribution": {
+    "ADD": 32155,
+    "STOP": 10000,
+    "DROP": 12152
+  },
+  "examples": 54307,
+  "seed": 42
+}

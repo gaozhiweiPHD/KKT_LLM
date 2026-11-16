@@ -1,0 +1,8 @@
+..................................................................       [100%]
+=============================== warnings summary ===============================
+tests/test_baselines.py: 12 warnings
+  /oscar/data/gk/gzhiwei/KKT_LLM/kkt_qwen_agent/kkt_agent/baselines.py:41: OptimizeWarning: Unrecognized options detected: {'threads': 1}. These will be passed to HiGHS verbatim.
+    lp=linprog(np.r_[np.zeros(qp.n),-1.],A_ub=np.c_[qp.A,np.ones(qp.m)],b_ub=qp.b,
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+66 passed, 12 warnings in 15.39s

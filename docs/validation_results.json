@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-16",
+  "full_tests_passed": 77,
+  "fresh_cpu_tests_passed": 72,
+  "original_tests_passed": 66,
+  "warnings": "12 SciPy OptimizeWarning messages: threads forwarded to HiGHS",
+  "archive_restore": {
+    "groups": [
+      "data",
+      "checkpoints",
+      "evidence"
+    ],
+    "files_verified": 159
+  },
+  "certificate_audit": {
+    "checked_records": 40500,
+    "mismatches": 0,
+    "raw_roundoff_reconciliations": 92,
+    "tolerance_sweep_identical_to_reference": true,
+    "training_audits_identical_to_reference": true
+  },
+  "model_smoke": {
+    "method": "qwen_grpo_B",
+    "split": "test_id",
+    "n_problems": 2,
+    "seed": 11,
+    "batch_size": 2,
+    "success_rate": 1.0,
+    "offline_base_model_cache": true
+  },
+  "retrained_during_release": false
+}

@@ -1,0 +1,47 @@
+{
+  "qwen_sft": {
+    "n_problems": 500,
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "n_seeds": 3,
+    "mean": {
+      "success": 0.8106666666666666,
+      "actions": 11.068666666666667,
+      "invalid_action_rate": 0.008048114533099055,
+      "incorrect_stop": 0.002,
+      "cycle": 0.21533333333333335,
+      "inference_seconds": 0.3314683889995019,
+      "solver_seconds": 0.007573138757298391,
+      "wall_seconds": 15.072776771131904,
+      "amortized_wall_seconds": 0.35635269104689365,
+      "episode_latency_seconds": 15.072776771131904,
+      "input_tokens": 3419.644,
+      "output_tokens": 60.58066666666667,
+      "stationarity": 4.282905241346484e-17,
+      "primal": 0.0025151625770622426,
+      "dual": 0.0012825034568391253,
+      "complementarity": 4.532138435157009e-18
+    },
+    "std_across_seeds": {
+      "success": 0.005033222956847112,
+      "actions": 0.06524824390995779,
+      "invalid_action_rate": 0.002269486220392015,
+      "incorrect_stop": 0.0,
+      "cycle": 0.0070237691685684995,
+      "inference_seconds": 0.002078773349225394,
+      "solver_seconds": 0.00026934050567644437,
+      "wall_seconds": 0.08310179558834097,
+      "amortized_wall_seconds": 0.0013184294563385458,
+      "episode_latency_seconds": 0.08310179558834097,
+      "input_tokens": 19.1184201230121,
+      "output_tokens": 0.4473760535984602,
+      "stationarity": 1.1962256449088523e-18,
+      "primal": 0.0003556324697428524,
+      "dual": 0.00019102801602601508,
+      "complementarity": 1.6016090507186247e-19
+    }
+  }
+}

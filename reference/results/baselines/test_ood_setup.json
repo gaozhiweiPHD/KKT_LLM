@@ -1,0 +1,18 @@
+{
+  "peak_cuda_allocated_bytes": null,
+  "model_load_seconds": 0.0,
+  "model": null,
+  "adapter": null,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "n_problems": 500,
+  "start": "cold",
+  "max_actions": 20,
+  "temperature": null,
+  "batch_size": 1,
+  "evaluation_wall_seconds": 93.17789040319622,
+  "program_wall_seconds": 94.24591217562556
+}

@@ -1,0 +1,18 @@
+{
+  "peak_cuda_allocated_bytes": 6085851648,
+  "model_load_seconds": 4.443573569878936,
+  "model": "Qwen/Qwen3-0.6B",
+  "adapter": "checkpoints/sft/final",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "n_problems": 1000,
+  "start": "cold",
+  "max_actions": 20,
+  "temperature": 0.7,
+  "batch_size": 64,
+  "evaluation_wall_seconds": 1006.744713274762,
+  "program_wall_seconds": 1024.9387717749923
+}

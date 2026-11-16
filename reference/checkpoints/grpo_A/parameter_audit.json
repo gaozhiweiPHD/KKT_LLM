@@ -1,0 +1,28 @@
+{
+  "trainable_parameters": 2293760,
+  "changed_parameters": 2293756,
+  "delta_l2": 0.20909003786400532,
+  "delta_max": 0.0006659249775111675,
+  "sha256": "18319afebd8f2728147d8c043b27492561cec8599156d718b16534d8f0575894",
+  "steps": 200,
+  "resumed_from_step": 0,
+  "seconds": 1759.8584618996829,
+  "groups_with_variance": 36,
+  "finite_losses": true,
+  "config": {
+    "model": "Qwen/Qwen3-0.6B",
+    "seed": 42,
+    "learning_rate": 1e-05,
+    "max_steps": 200,
+    "num_generations": 4,
+    "temperature": 0.7,
+    "max_new_tokens": 12,
+    "max_actions": 20,
+    "clip_epsilon": 0.2,
+    "kl_beta": 0.0,
+    "reward": "A"
+  },
+  "engine": "custom on-policy multi-turn token GRPO",
+  "checkpoint_resume": false,
+  "peak_gpu_memory_bytes": 6610796032
+}

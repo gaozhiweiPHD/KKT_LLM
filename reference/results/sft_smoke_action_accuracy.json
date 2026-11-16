@@ -1,0 +1,96 @@
+{
+  "n": 12,
+  "accuracy": 0.4166666666666667,
+  "parse_rate": 1.0,
+  "label_counts": {
+    "ADD": 9,
+    "STOP": 2,
+    "DROP": 1
+  },
+  "results": [
+    {
+      "problem_id": "validation-00000",
+      "expected": "ADD(27)",
+      "predicted": "ADD(27)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00000",
+      "expected": "ADD(30)",
+      "predicted": "ADD(27)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00000",
+      "expected": "ADD(24)",
+      "predicted": "ADD(15)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00000",
+      "expected": "ADD(15)",
+      "predicted": "ADD(15)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00000",
+      "expected": "ADD(14)",
+      "predicted": "ADD(14)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00000",
+      "expected": "ADD(7)",
+      "predicted": "ADD(14)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00000",
+      "expected": "STOP",
+      "predicted": "ADD(7)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00000",
+      "expected": "DROP(8)",
+      "predicted": "ADD(18)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00000",
+      "expected": "STOP",
+      "predicted": "ADD(0)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00001",
+      "expected": "ADD(30)",
+      "predicted": "ADD(30)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00001",
+      "expected": "ADD(29)",
+      "predicted": "ADD(10)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00001",
+      "expected": "ADD(5)",
+      "predicted": "ADD(5)",
+      "exact": true,
+      "parseable": true
+    }
+  ]
+}

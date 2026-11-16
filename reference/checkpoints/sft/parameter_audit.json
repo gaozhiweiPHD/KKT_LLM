@@ -1,0 +1,22 @@
+{
+  "trainable_parameters": 2293760,
+  "changed_parameters": 2293758,
+  "delta_l2": 1.5124781750877005,
+  "delta_max": 0.006167577113956213,
+  "sha256": "60e8e2cbd7fb0fe876c5865a99051d202762cd87c59e025cb2fc48c7a1f5b01d",
+  "seconds": 384.5044082738459,
+  "examples": 12000,
+  "steps": 200,
+  "config": {
+    "model": "Qwen/Qwen3-0.6B",
+    "seed": 42,
+    "rank": 8,
+    "alpha": 16,
+    "learning_rate": 0.0001,
+    "max_steps": 200,
+    "max_length": 2048,
+    "batch_size": 1,
+    "gradient_accumulation_steps": 4
+  },
+  "base_revision": null
+}

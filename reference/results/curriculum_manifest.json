@@ -1,0 +1,5 @@
+{
+  "tasks": 15000,
+  "seed": 42,
+  "oracle_access": "offline only; initial active sets are task inputs, never target active sets"
+}

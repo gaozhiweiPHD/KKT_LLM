@@ -1,0 +1,45 @@
+{
+  "qwen_sft": {
+    "n_problems": 8,
+    "seeds": [
+      987
+    ],
+    "n_seeds": 1,
+    "mean": {
+      "success": 0.875,
+      "actions": 9.0,
+      "invalid_action_rate": 0.0,
+      "incorrect_stop": 0.0,
+      "cycle": 0.125,
+      "inference_seconds": 2.8974821642041206,
+      "solver_seconds": 0.007993899984285235,
+      "wall_seconds": 2.9267282634973526,
+      "amortized_wall_seconds": 2.9267512764781713,
+      "episode_latency_seconds": 2.9267282634973526,
+      "input_tokens": 2737.75,
+      "output_tokens": 48.25,
+      "stationarity": 3.939083017006109e-17,
+      "primal": 8.690333781981104e-05,
+      "dual": 0.000861782571972468,
+      "complementarity": 6.4970785253133705e-18
+    },
+    "std_across_seeds": {
+      "success": null,
+      "actions": null,
+      "invalid_action_rate": null,
+      "incorrect_stop": null,
+      "cycle": null,
+      "inference_seconds": null,
+      "solver_seconds": null,
+      "wall_seconds": null,
+      "amortized_wall_seconds": null,
+      "episode_latency_seconds": null,
+      "input_tokens": null,
+      "output_tokens": null,
+      "stationarity": null,
+      "primal": null,
+      "dual": null,
+      "complementarity": null
+    }
+  }
+}

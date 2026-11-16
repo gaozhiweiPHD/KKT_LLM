@@ -1,0 +1,99 @@
+{
+  "seed_scheme": "10M/20M/30M/40M + index",
+  "unique_qp_hashes": 7000,
+  "splits": {
+    "train": {
+      "count": 5000,
+      "counts": {
+        "active_6": 642,
+        "condition_100": 1567,
+        "standard": 1250,
+        "active_4": 639,
+        "condition_10": 2951,
+        "small_slack": 1250,
+        "active_8": 632,
+        "nearly_active": 1250,
+        "active_10": 648,
+        "correlated": 1250,
+        "active_7": 638,
+        "active_3": 622,
+        "condition_1000": 482,
+        "active_5": 608,
+        "active_9": 571
+      },
+      "max_osqp_merit": 1.0322485519225868e-15,
+      "osqp_failures": [],
+      "max_x_error_inf": 2.546851618490109e-13
+    },
+    "validation": {
+      "count": 500,
+      "counts": {
+        "active_6": 56,
+        "condition_100": 159,
+        "standard": 125,
+        "active_9": 50,
+        "small_slack": 125,
+        "active_4": 75,
+        "condition_10": 292,
+        "nearly_active": 125,
+        "correlated": 125,
+        "active_10": 70,
+        "active_3": 60,
+        "active_5": 74,
+        "active_8": 57,
+        "active_7": 58,
+        "condition_1000": 49
+      },
+      "max_osqp_merit": 5.956581388445383e-16,
+      "osqp_failures": [],
+      "max_x_error_inf": 3.7636560534792807e-14
+    },
+    "test_id": {
+      "count": 1000,
+      "counts": {
+        "active_9": 116,
+        "condition_10": 584,
+        "standard": 250,
+        "active_7": 115,
+        "condition_100": 315,
+        "small_slack": 250,
+        "active_6": 113,
+        "nearly_active": 250,
+        "active_3": 134,
+        "correlated": 250,
+        "active_4": 128,
+        "active_8": 134,
+        "active_10": 128,
+        "active_5": 132,
+        "condition_1000": 101
+      },
+      "max_osqp_merit": 8.718196904104871e-16,
+      "osqp_failures": [],
+      "max_x_error_inf": 4.2799097599299785e-14
+    },
+    "test_ood": {
+      "count": 500,
+      "counts": {
+        "active_7": 59,
+        "condition_10000": 250,
+        "standard": 126,
+        "active_3": 60,
+        "condition_100": 93,
+        "active_6": 61,
+        "small_slack": 126,
+        "active_10": 69,
+        "condition_10": 135,
+        "active_5": 57,
+        "nearly_active": 124,
+        "active_8": 71,
+        "correlated": 124,
+        "active_4": 70,
+        "active_9": 53,
+        "condition_1000": 22
+      },
+      "max_osqp_merit": 1.828138263599641e-12,
+      "osqp_failures": [],
+      "max_x_error_inf": 1.666116722365274e-08
+    }
+  }
+}

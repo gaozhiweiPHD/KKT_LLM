@@ -1,0 +1,18 @@
+{
+  "peak_cuda_allocated_bytes": 6515324928,
+  "model_load_seconds": 4.6755467634648085,
+  "model": "Qwen/Qwen3-0.6B",
+  "adapter": null,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "n_problems": 500,
+  "start": "cold",
+  "max_actions": 20,
+  "temperature": 0.7,
+  "batch_size": 64,
+  "evaluation_wall_seconds": 154.68005736544728,
+  "program_wall_seconds": 172.42091628722847
+}

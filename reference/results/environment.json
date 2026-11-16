@@ -1,0 +1,15 @@
+{
+  "torch": "2.8.0",
+  "transformers": "5.20.2",
+  "trl": "1.16.0",
+  "peft": "0.21.2",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "osqp": "1.1.3",
+  "datasets": "5.1.0",
+  "accelerate": "1.15.0",
+  "cuda": true,
+  "cuda_version": "12.8",
+  "gpu": "Quadro RTX 6000",
+  "bf16": true
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "batch": 1,
+    "actions": [
+      "ADD(27)"
+    ]
+  },
+  {
+    "batch": 4,
+    "actions": [
+      "ADD(27)",
+      "ADD(5)",
+      "ADD(5)",
+      "ADD(25)"
+    ]
+  },
+  {
+    "batch": 8,
+    "actions": [
+      "ADD(27)",
+      "ADD(5)",
+      "ADD(5)",
+      "ADD(25)",
+      "ADD(19)",
+      "ADD(28)",
+      "ADD(0)",
+      "ADD(19)"
+    ]
+  }
+]

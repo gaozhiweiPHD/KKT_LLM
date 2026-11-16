@@ -1,0 +1,712 @@
+{
+  "n": 100,
+  "accuracy": 0.72,
+  "parse_rate": 1.0,
+  "label_counts": {
+    "ADD": 61,
+    "DROP": 19,
+    "STOP": 20
+  },
+  "results": [
+    {
+      "problem_id": "validation-00219",
+      "expected": "ADD(6)",
+      "predicted": "ADD(6)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00469",
+      "expected": "DROP(18)",
+      "predicted": "ADD(8)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00335",
+      "expected": "ADD(11)",
+      "predicted": "ADD(11)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00233",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00223",
+      "expected": "ADD(16)",
+      "predicted": "ADD(16)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00386",
+      "expected": "DROP(21)",
+      "predicted": "DROP(10)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00074",
+      "expected": "ADD(16)",
+      "predicted": "DROP(28)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00161",
+      "expected": "ADD(10)",
+      "predicted": "ADD(19)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00079",
+      "expected": "ADD(28)",
+      "predicted": "ADD(10)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00354",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00088",
+      "expected": "ADD(9)",
+      "predicted": "ADD(9)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00248",
+      "expected": "ADD(15)",
+      "predicted": "ADD(15)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00213",
+      "expected": "ADD(8)",
+      "predicted": "ADD(21)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00406",
+      "expected": "DROP(4)",
+      "predicted": "ADD(15)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00183",
+      "expected": "ADD(14)",
+      "predicted": "ADD(14)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00343",
+      "expected": "ADD(32)",
+      "predicted": "ADD(32)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00415",
+      "expected": "DROP(30)",
+      "predicted": "DROP(26)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00096",
+      "expected": "ADD(21)",
+      "predicted": "DROP(34)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00438",
+      "expected": "ADD(18)",
+      "predicted": "ADD(18)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00497",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00111",
+      "expected": "DROP(23)",
+      "predicted": "DROP(23)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00458",
+      "expected": "ADD(5)",
+      "predicted": "ADD(18)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00443",
+      "expected": "ADD(24)",
+      "predicted": "ADD(24)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00061",
+      "expected": "DROP(16)",
+      "predicted": "DROP(16)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00078",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00413",
+      "expected": "ADD(23)",
+      "predicted": "ADD(23)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00396",
+      "expected": "ADD(1)",
+      "predicted": "ADD(1)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00091",
+      "expected": "ADD(15)",
+      "predicted": "ADD(15)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00377",
+      "expected": "DROP(2)",
+      "predicted": "ADD(24)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00068",
+      "expected": "ADD(28)",
+      "predicted": "ADD(28)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00119",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00274",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00350",
+      "expected": "DROP(21)",
+      "predicted": "DROP(19)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00260",
+      "expected": "ADD(0)",
+      "predicted": "ADD(0)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00270",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00143",
+      "expected": "DROP(22)",
+      "predicted": "DROP(22)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00450",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00387",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00318",
+      "expected": "ADD(14)",
+      "predicted": "ADD(14)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00383",
+      "expected": "ADD(12)",
+      "predicted": "ADD(12)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00043",
+      "expected": "ADD(5)",
+      "predicted": "ADD(5)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00420",
+      "expected": "ADD(26)",
+      "predicted": "ADD(26)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00272",
+      "expected": "DROP(38)",
+      "predicted": "DROP(31)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00193",
+      "expected": "ADD(30)",
+      "predicted": "ADD(15)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00220",
+      "expected": "ADD(32)",
+      "predicted": "ADD(32)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00239",
+      "expected": "ADD(1)",
+      "predicted": "ADD(1)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00314",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00032",
+      "expected": "DROP(19)",
+      "predicted": "DROP(19)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00375",
+      "expected": "ADD(17)",
+      "predicted": "ADD(0)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00112",
+      "expected": "DROP(16)",
+      "predicted": "DROP(15)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00322",
+      "expected": "ADD(22)",
+      "predicted": "ADD(22)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00449",
+      "expected": "ADD(22)",
+      "predicted": "ADD(22)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00340",
+      "expected": "ADD(35)",
+      "predicted": "ADD(35)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00181",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00221",
+      "expected": "ADD(5)",
+      "predicted": "ADD(16)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00232",
+      "expected": "DROP(8)",
+      "predicted": "DROP(21)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00457",
+      "expected": "ADD(28)",
+      "predicted": "ADD(14)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00253",
+      "expected": "ADD(13)",
+      "predicted": "ADD(13)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00363",
+      "expected": "ADD(17)",
+      "predicted": "DROP(6)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00369",
+      "expected": "ADD(22)",
+      "predicted": "ADD(27)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00198",
+      "expected": "ADD(22)",
+      "predicted": "ADD(22)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00181",
+      "expected": "ADD(9)",
+      "predicted": "ADD(17)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00380",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00036",
+      "expected": "ADD(38)",
+      "predicted": "ADD(38)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00319",
+      "expected": "ADD(2)",
+      "predicted": "ADD(2)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00342",
+      "expected": "STOP",
+      "predicted": "DROP(36)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00409",
+      "expected": "ADD(30)",
+      "predicted": "ADD(20)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00040",
+      "expected": "ADD(19)",
+      "predicted": "ADD(19)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00135",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00046",
+      "expected": "ADD(17)",
+      "predicted": "DROP(32)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00481",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00375",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00021",
+      "expected": "ADD(5)",
+      "predicted": "ADD(5)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00421",
+      "expected": "DROP(1)",
+      "predicted": "DROP(1)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00347",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00218",
+      "expected": "ADD(16)",
+      "predicted": "ADD(16)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00423",
+      "expected": "ADD(23)",
+      "predicted": "ADD(23)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00093",
+      "expected": "ADD(1)",
+      "predicted": "ADD(1)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00179",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00030",
+      "expected": "ADD(30)",
+      "predicted": "ADD(30)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00044",
+      "expected": "ADD(24)",
+      "predicted": "ADD(24)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00248",
+      "expected": "DROP(27)",
+      "predicted": "DROP(27)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00480",
+      "expected": "ADD(6)",
+      "predicted": "ADD(6)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00216",
+      "expected": "ADD(25)",
+      "predicted": "ADD(25)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00156",
+      "expected": "ADD(8)",
+      "predicted": "ADD(8)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00403",
+      "expected": "DROP(7)",
+      "predicted": "DROP(7)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00313",
+      "expected": "ADD(7)",
+      "predicted": "ADD(24)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00337",
+      "expected": "DROP(1)",
+      "predicted": "DROP(16)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00235",
+      "expected": "DROP(22)",
+      "predicted": "DROP(22)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00386",
+      "expected": "ADD(8)",
+      "predicted": "ADD(8)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00203",
+      "expected": "ADD(18)",
+      "predicted": "ADD(18)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00175",
+      "expected": "ADD(29)",
+      "predicted": "ADD(29)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00370",
+      "expected": "DROP(20)",
+      "predicted": "DROP(20)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00062",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00342",
+      "expected": "ADD(32)",
+      "predicted": "ADD(32)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00164",
+      "expected": "ADD(1)",
+      "predicted": "ADD(1)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00042",
+      "expected": "STOP",
+      "predicted": "STOP",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00281",
+      "expected": "ADD(23)",
+      "predicted": "ADD(2)",
+      "exact": false,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00223",
+      "expected": "ADD(20)",
+      "predicted": "ADD(20)",
+      "exact": true,
+      "parseable": true
+    },
+    {
+      "problem_id": "validation-00415",
+      "expected": "ADD(26)",
+      "predicted": "ADD(26)",
+      "exact": true,
+      "parseable": true
+    }
+  ]
+}

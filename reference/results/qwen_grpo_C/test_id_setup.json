@@ -1,0 +1,18 @@
+{
+  "peak_cuda_allocated_bytes": 6085841408,
+  "model_load_seconds": 4.277132898569107,
+  "model": "Qwen/Qwen3-0.6B",
+  "adapter": "checkpoints/grpo_C/final",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "n_problems": 1000,
+  "start": "cold",
+  "max_actions": 20,
+  "temperature": 0.7,
+  "batch_size": 64,
+  "evaluation_wall_seconds": 1017.5216596312821,
+  "program_wall_seconds": 1035.149998145178
+}

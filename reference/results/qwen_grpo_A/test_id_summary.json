@@ -1,0 +1,47 @@
+{
+  "qwen_grpo_A": {
+    "n_problems": 1000,
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "n_seeds": 3,
+    "mean": {
+      "success": 0.8463333333333333,
+      "actions": 10.237,
+      "invalid_action_rate": 0.016154675298328546,
+      "incorrect_stop": 0.0006666666666666666,
+      "cycle": 0.039,
+      "inference_seconds": 0.30370468272455037,
+      "solver_seconds": 0.007235267389565706,
+      "wall_seconds": 13.239489237760504,
+      "amortized_wall_seconds": 0.32703798600596684,
+      "episode_latency_seconds": 13.239489237760504,
+      "input_tokens": 3154.319,
+      "output_tokens": 55.42733333333333,
+      "stationarity": 5.378704982473759e-17,
+      "primal": 0.001408258758179171,
+      "dual": 0.029888749916442386,
+      "complementarity": 1.4041782069106286e-16
+    },
+    "std_across_seeds": {
+      "success": 0.005507570547286107,
+      "actions": 0.005000000000000782,
+      "invalid_action_rate": 0.0015481078723625936,
+      "incorrect_stop": 0.0011547005383792516,
+      "cycle": 0.0020000000000000018,
+      "inference_seconds": 0.005134642888194257,
+      "solver_seconds": 8.107786251187237e-05,
+      "wall_seconds": 0.13658550222732393,
+      "amortized_wall_seconds": 0.00535288915296945,
+      "episode_latency_seconds": 0.13658550222732393,
+      "input_tokens": 0.4288542876081671,
+      "output_tokens": 0.07569235980819347,
+      "stationarity": 8.88109563663528e-19,
+      "primal": 0.0001684163449390901,
+      "dual": 0.015616353995638902,
+      "complementarity": 1.5672004410474193e-16
+    }
+  }
+}
